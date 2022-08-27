@@ -159,6 +159,7 @@
     <Content Include="Square150x150Logo.scale-125.png" />
     <Content Include="Square150x150Logo.scale-150.png" />
     <Content Include="Square150x150Logo.scale-400.png" />
+    <Content Include="Square71x71Logo.png" />
     <Content Include="Square71x71Logo.scale-100.png" />
     <None Include="UserAppDeployment_TemporaryKey.pfx" />
   </ItemGroup>

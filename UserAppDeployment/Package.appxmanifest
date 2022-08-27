@@ -48,6 +48,12 @@
         <desktop:Extension Category="windows.startupTask" EntryPoint="Windows.FullTrustApplication">
           <desktop:StartupTask TaskId="HomeAutomation" Enabled="true" DisplayName="Home automation App" />
         </desktop:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="magnet">
+            <uap:Logo>Square71x71Logo.png</uap:Logo>
+            <uap:DisplayName>Magnet file format</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
       </Extensions>
     </Application>
   </Applications>
